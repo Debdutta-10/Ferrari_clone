@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: black;
+}
+#logo{
+    margin-left: 7px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+#logo img{
+    height: 70px;
+    width: 60px;
+}
+#navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#navbar ul li{
+    list-style: none;
+    padding: 15px;
+    margin-top: 5%;
+
+}
+#navbar ul li a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li .item1{
+    color: grey;
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container1 h2{
+    font-family: 'Poppins', sans-serif;
+    color: red;
+    margin-top: 1%;
+}
+.container1 h5{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.container1 .c1h{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }  
+  .container2 img {
+    flex: 1 1 30%;
+    max-width: 30%;
+    height: auto;
+    margin: 10px;
+  }
+  
+  .container2 div {
+    flex: 1 1 50%;
+    max-width: 50%;
+    margin: 10px;
+  }
+  
+  .container2 div p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+  }
+  .container2 div a{
+    margin-left: 36%;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+  }
+  .container2 div :hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust the layout for mobile devices */
+    .container2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container2 img,
+    .container2 div {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  } 
+.container3{
+  background-color: black;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container3 h2 a{
+  margin-top: 3%;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  color: white;
+}
+.container3 h2 {
+  padding-top: 1%;
+}
+.container3 h2:hover {
+  font-size: 5vh;
+  text-shadow: 0 0 5px white; 
+  cursor: pointer;
+}
+
+.container3 h5{
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  color: white;
+  padding: 2%;
+}
+
+  

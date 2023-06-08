@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Portal</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="index.html">HOME</a></li>
+            <li class="item"><a href="index2.html" target="_blank">RACING</a></li>
+            <li class="item"><a href="index4.html" target="_blank">COLLECTIONS</a></li>
+            <li class="item"><a href="index3.html" target="_blank">UNIVERSE</a></li>
+            <li class="item"><a href="index.html#container2">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <div class="pcontainer">
+        <div class="container1">
+            <h2>Payment Portal</h2>
+            <div class="bank ic1">
+                <label for="bank-name">Bank Name:</label>
+                <select id="dropdown">
+                    <option value="option1">Select your prefered bank</option>
+                    <option value="option1">State Bank of India</option>
+                    <option value="option2">ICICI</option>
+                    <option value="option3">Punjab National Bank</option>
+                    <option value="option4">Axis Bank</option>
+                  </select>
+            </div>
+            <div class="cnum ic1">
+                <label for="card-number">Credit Card Number:</label>
+                <input type="text" id="card-number" name="card-number" placeholder="####-####-####" maxlength="16" required>        
+            </div>
+            <div class="edate ic1">
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="text" id="expiry-date" name="expiry-date" placeholder="DD-MM-YYYY" maxlength="10" required>
+            </div>
+            <div class="cvv ic1">
+                <label for="cvv-number">CVV Number:</label>
+                <input type="text" id="cvv-number" name="cvv-number" placeholder="####" maxlength="4" required>
+            </div>
+            <div class="name ic1">
+                <label for="name">Card Holder Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Card Holder Name" maxlength="20" required>
+            </div>
+            <button class="pnow" type="button">Pay now</button>
+        </div>
+    </div>
+
+</body>
+</html>
